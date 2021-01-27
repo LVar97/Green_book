@@ -1,0 +1,8 @@
+.cover__title{
+	text-transform: uppercase;
+	margin: 0 auto;
+	padding-bottom: 15px;
+	font-size: 80px;
+	letter-spacing: 3px;
+	font-weight: 600;
+}

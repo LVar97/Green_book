@@ -1,0 +1,9 @@
+.subscribe{
+	background-color: #dee3dd;
+	max-width: 1280px;
+	min-height: 500px;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}

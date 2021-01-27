@@ -1,90 +1,42 @@
-/*Обнуление*/
-*{padding:0;margin:0;border:0;}
-*,*:before,*:after{-moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box;}
-:focus,:active{outline:none;}
-a:focus,a:active{outline:none;}
-nav,footer,header,aside{display:block;}
-html,body{height:100%;width:100%;font-size:100%;line-height:1;font-size:14px;-ms-text-size-adjust:100%;-moz-text-size-adjust:100%;-webkit-text-size-adjust:100%;}
-input,button,textarea{font-family:inherit;}
-input::-ms-clear{display:none;}
-button{cursor:pointer;}
-button::-moz-focus-inner{padding:0;border:0;}
-a,a:visited{text-decoration:none;}
-a:hover{text-decoration:none;}
-ul li{list-style:none;}
-img{vertical-align:top;}
-h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit;}
-/*--------------------*/
+@import url('../vendor/normalize.css');
+@import url('../vendor/fonts/fonts.css');
+@import url('../blocks/page/page.css');
+@import url('../blocks/header/header.css');
+@import url('../blocks/header/__logo/header__logo.css');
+@import url('../blocks/menu/menu.css');
+@import url('../blocks/menu/__link/menu__link.css');
+@import url('../blocks/content/content.css');
+@import url('../blocks/cover/cover.css');
+@import url('../blocks/cover/__title/cover__title.css');
+@import url('../blocks/cover/__subtitle/cover__subtitle.css');
+@import url('../blocks/articles/articles.css');
+@import url('../blocks/articles/__title/articles__title.css');
+@import url('../blocks/articles/__grid/articles__grid.css');
+@import url('../blocks/card/card.css');
+@import url('../blocks/card/__image/card__image.css');
+@import url('../blocks/card/__title/card__title.css');
+@import url('../blocks/about/about.css');
+@import url('../blocks/about/__image/about__image.css');
+@import url('../blocks/about/__body/about__body.css');
+@import url('../blocks/about/__title/about__title.css');
+@import url('../blocks/about/__text/about__text.css');
+@import url('../blocks/subscribe/subscribe.css');
+@import url('../blocks/subscribe/__title/subscribe__title.css');
+@import url('../blocks/subscribe/__subtitle/subscribe__subtitle.css');
+@import url('../blocks/form/form.css');
+@import url('../blocks/form/__input/form__input.css');
+@import url('../blocks/form/__subs-btn/form__subs-btn.css');
+@import url('../blocks/footer/footer.css');
+@import url('../blocks/footer/__icons/footer__icons.css');
+@import url('../blocks/footer/__icons-link/footer__icons-link.css');
+@import url('../blocks/footer/__social/footer__social.css');
+@import url('');
+@import url('');
 
 
 
+/* 
 
-body{
-	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-}
-.wrapper {
-    min-height: 100%;
-	overflow: hidden;
-
-	display: flex;
-    flex-direction: column;
-    background-color: #6c7f7d;
-}
-.container{
-    max-width: 1180px;
-    margin: 0px auto;
-    background-color: #f8fcfa;
-    color: #434543;
-    padding: 10px;
-    
-}
-.content {
-    flex: 1 1 auto;
-}
-.header { margin: 0 0 -10px;}
- 
-.header__image{
-    background: url('../img/kust.jpeg') no-repeat;
-    background-size: cover;
-    padding: 15px;
-}
-.menu__row {
-    display: flex;
-    justify-content: space-between;
-    padding: 5px;
-
-    font-family: Arial, serif;
-    font-size: 14px;
-    text-transform: uppercase;
-    
-    letter-spacing: 0.5px;
-}
-.menu__logo a{
-    text-decoration: none;
-    color: #434543;
-}
-.menu__variant {}
-.menu__variant a{
-    padding: 0 0 0 10px;
-    text-decoration: none;
-    color: #434543;
-} 
-.header__title {
-    text-align: center;
-    margin: 15%;
-}
-.title {
-    font-size: 50px;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-}
-.subtitle {
-    font-family:  Arial, serif;
-    font-size: 16px;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-    padding: 10px;
-}
 
 
 .articles {
@@ -224,4 +176,4 @@ body{
 }
 .fotter__menu:last-child{
     padding: 0 10px 0 10px;
-}
+} */

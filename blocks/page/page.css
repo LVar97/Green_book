@@ -1,0 +1,16 @@
+.page{
+	font-family: 'JosefinSans', Arial, sans-serif;
+	max-width: 1280px;
+	margin: 0 auto;
+	background-color: #576b6a;
+	color: #343833;
+	
+	/* сглаживание */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+
+	/* подгонка размера */
+	-webkit-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+
+}

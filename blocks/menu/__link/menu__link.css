@@ -1,0 +1,11 @@
+.menu__link{
+	text-decoration: none;
+	padding-right: 30px;
+	color: #434543;
+	text-transform: uppercase;
+	font-weight: 400;
+}
+
+.menu__link:last-child{
+	padding-right: 0;
+}

@@ -1,0 +1,9 @@
+.articles__title{
+	max-width: 220px;
+	text-transform: uppercase;
+	margin: 0 auto 40px;
+	text-align: center;
+	padding: 125px 0 20px;
+	border-bottom: 2px solid;
+	font-weight: 600;
+}

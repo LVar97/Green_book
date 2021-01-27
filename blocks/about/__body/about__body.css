@@ -1,0 +1,7 @@
+.about__body{
+	width: 640px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}

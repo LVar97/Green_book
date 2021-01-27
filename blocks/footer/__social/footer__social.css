@@ -1,0 +1,12 @@
+.footer__social{
+	/* max-width: 30px;
+	min-height: 30px;
+	background-color: rgba(225, 225, 225, 0);
+	object-fit: cover; */
+	
+
+	
+  height: 30px;
+  width: 30px;
+  text-align: center;
+}

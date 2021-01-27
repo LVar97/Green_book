@@ -1,0 +1,13 @@
+.cover{
+	max-width: 1280px;
+	min-height: 667px;
+	margin: -60px auto 0;
+	background-image: url('../../image/kust.jpeg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-color: #fafeff;
+}

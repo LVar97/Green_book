@@ -1,0 +1,7 @@
+.form__input{
+	min-height: 50px;
+	padding-left: 20px;
+	background-color: #efefed;
+	margin-bottom: 25px;
+	border: none;
+}

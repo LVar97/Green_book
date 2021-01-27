@@ -1,0 +1,12 @@
+.footer__icons-link{
+	text-decoration: none;
+  color: white;
+	
+  opacity: 1;
+  transition: opacity 1s ease;
+	padding-right: 20px;
+}
+
+.footer__icons-link:last-child{
+	padding-right: 0;
+}

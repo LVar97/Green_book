@@ -1,0 +1,15 @@
+.form__subs-btn{
+	width: 150px;
+	min-height: 50px;
+	background-color: #dee3dd;
+	margin: 0 auto;
+	text-transform: uppercase;
+	color: #434543;
+	padding: 0;
+	transition: 1s ease;
+	border: 1px solid;
+}
+
+.form__subs-btn:hover{
+	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
