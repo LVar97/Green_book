@@ -6,3 +6,10 @@
 	letter-spacing: 3px;
 	font-weight: 600;
 }
+
+@media screen and (max-width: 970px){
+	.cover__title{
+		font-size: 40px;
+		letter-spacing: 1px;
+	}
+}

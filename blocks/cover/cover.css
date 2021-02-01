@@ -1,13 +1,22 @@
 .cover{
 	max-width: 1280px;
 	min-height: 667px;
-	margin: -60px auto 0;
+	margin: -70px auto 0;
 	background-image: url('../../image/kust.jpeg');
 	background-repeat: no-repeat;
-	background-size: cover;
+	background-size: 1240px 627px;
+	background-position: center;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	background-color: #fafeff;
+	background-color: #faffff; 
+	
+}
+
+@media screen and (max-width: 970px){
+	.cover{
+		max-width: 320px;
+		min-height: 567px;
+	}
 }

@@ -4,3 +4,10 @@
 	margin: 0 auto;
 	background-color: #f2f2f0;
 }
+
+@media screen and (max-width: 970px){
+	.articles{
+		max-width: 320px;
+		padding-bottom: 30px;
+	}
+}

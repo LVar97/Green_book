@@ -2,12 +2,20 @@
 	max-width: 840px;
 	display: grid;
 	column-gap: 30px;
-  grid-template-columns: repeat(3, 250px);
-	grid-auto-rows: 350px;
+  grid-template-columns: repeat(3, 300px);
+	grid-auto-rows: 400px;
 
 	justify-content: center;
 
 	list-style-type: none;
 	padding: 0;
 	margin: 0 auto;
+}
+
+@media screen and (max-width: 970px){
+	.articles__grid{
+		max-width: 320px;
+		grid-template-columns: repeat(1, 300px);
+		row-gap: 20px;
+	}
 }

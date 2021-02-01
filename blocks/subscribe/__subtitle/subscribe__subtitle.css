@@ -3,3 +3,10 @@
 	margin: 0 auto;
 	padding-bottom: 25px;
 }
+
+@media screen and (max-width: 970px){
+	.subscribe__subtitle{
+		max-width: 300px;
+		font-size: 20px;
+	}
+}

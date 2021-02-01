@@ -4,3 +4,9 @@
 	width: 400px;
 	margin: 0 auto;
 }
+
+@media screen and (max-width: 970px){
+	.form{
+		width: 300px;
+	}
+}

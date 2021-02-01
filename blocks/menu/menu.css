@@ -2,3 +2,31 @@
 	max-width: 500px;
 	padding-right: 40px;
 }
+
+@media screen and (max-width: 970px){
+	.menu{
+		max-width: 300px;
+		min-height: 70px;
+		padding-right: 0;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		margin: 0 auto;
+		font-size: 35px;
+	}
+}
+
+/* @media screen and (max-width: 970px){
+	.menu{
+		position: fixed;
+		display: flex;
+		align-items: center;
+		justify-content: flex-end;
+		padding: 0 16px;
+		top: 0;
+		left: 0;
+		right: 0;
+		height: 50px;
+		z-index: 9999999;
+	}
+} */

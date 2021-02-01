@@ -4,3 +4,9 @@
 	text-transform: uppercase;
 	padding-left: 40px;
 }
+
+@media screen and (max-width: 970px){
+	.header__logo{
+		display: none;
+	}
+}

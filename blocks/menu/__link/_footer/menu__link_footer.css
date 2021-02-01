@@ -1,4 +1,4 @@
-.menu__link{
+.menu__link_footer{
 	text-decoration: none;
 	padding-right: 30px;
 	color: #434543;
@@ -6,14 +6,14 @@
 	font-weight: 400;
 }
 
-.menu__link:last-child{
+.menu__link_footer:last-child{
 	padding-right: 0;
 }
 
 @media screen and (max-width: 970px){
-	.menu__link{
-		padding-right: 15px;
-		font-size: 15px;
+	.menu__link_footer{
+		padding-right: 0;
+		font-size: 20px;
 		letter-spacing: 2px;
 	}
 }

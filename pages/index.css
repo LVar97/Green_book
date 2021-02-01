@@ -27,11 +27,11 @@
 @import url('../blocks/form/__input/form__input.css');
 @import url('../blocks/form/__subs-btn/form__subs-btn.css');
 @import url('../blocks/footer/footer.css');
+@import url('../blocks/menu/_footer/menu_footer.css');
+@import url('../blocks/menu/__link/_footer/menu__link_footer.css');
 @import url('../blocks/footer/__icons/footer__icons.css');
 @import url('../blocks/footer/__icons-link/footer__icons-link.css');
 @import url('../blocks/footer/__social/footer__social.css');
-@import url('');
-@import url('');
 
 
 

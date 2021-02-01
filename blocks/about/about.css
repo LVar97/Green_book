@@ -5,3 +5,10 @@
 	display: flex;
 	background-color: #fbfbfb;
 }
+
+@media screen and (max-width: 970px){
+	.about{
+		max-width: 320px;
+		flex-direction: column;
+	}
+}

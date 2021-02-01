@@ -3,3 +3,9 @@
 	max-width: 150px;
 	min-height: 20px;
 }
+
+@media screen and (max-width: 970px){
+	.footer__icons{
+		padding-left: 0;
+	}
+}
