@@ -32,7 +32,9 @@
 @import url('../blocks/footer/__icons/footer__icons.css');
 @import url('../blocks/footer/__icons-link/footer__icons-link.css');
 @import url('../blocks/footer/__social/footer__social.css');
-
+@import url('../blocks/form/__input-error/form__input-error.css');
+@import url('../blocks/form/__subs-btn/_disabled/form__subs-btn_disabled.css');
+@import url('');
 
 
 /* 

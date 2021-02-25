@@ -9,6 +9,7 @@
 	transition: 1s ease;
 	border: 1px solid;
 	letter-spacing: 2px;
+	cursor: pointer;
 }
 
 .form__subs-btn:hover{

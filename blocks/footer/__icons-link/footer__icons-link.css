@@ -10,3 +10,7 @@
 .footer__icons-link:last-child{
 	padding-right: 0;
 }
+
+.footer__icons-link:hover{
+	opacity: 0.6;
+}
